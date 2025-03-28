@@ -1,0 +1,100 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #e5eae9;
+    font-family: 'Arial', sans-serif;
+}
+
+.centered-container {
+    width: 87%;
+    max-width: 1000px;
+    background: white;
+    padding: 20px;
+    box-shadow: 0 0 20px #000000;
+    border-radius: 8px;
+}
+
+header {
+    text-align: center;
+    background: #016666;
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.hero img {
+    width: 100%;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+section {
+    margin-top: 20px;
+    padding: 15px;
+    background: #D1E8E2;
+    
+    border-radius: 8px;
+}
+
+h2 {
+    color: #000000;
+}
+h6 {
+    color: #0000ff;
+}
+
+.image-grid {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin: 15px 0;
+}
+
+.image-grid img {
+    width: 150px;
+    height: auto;
+    border-radius: 8px;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+    background: #016666;
+    color: white;
+    padding: 15px;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
